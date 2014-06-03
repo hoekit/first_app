@@ -5,6 +5,7 @@ gem 'rails', '3.2.13'
 
 group :production do
 	gem 'pg', '0.15.1'
+ 	gem 'uglifier', '>= 1.0.3'
 end
 
 # Bundle edge Rails instead:
@@ -24,7 +25,6 @@ end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
 #end
 
 gem 'jquery-rails'
